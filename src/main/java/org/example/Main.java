@@ -10,9 +10,9 @@ import java.time.Duration;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "T:\\apps\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://tinyurl.com/");
+        driver.get("https://parabank.parasoft.com/parabank/register.htm");
         // driver.manage().window().maximize();
         // driver.navigate().to("https://tinyurl.com/app/register");
         // driver.findElement(By.xpath("//*[@id=\"signup_name\"]")).sendKeys("Taimum");
