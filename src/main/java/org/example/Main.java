@@ -53,7 +53,13 @@ public class Main {
          // driver.findElement(By.xpath("//*[@id=\"openAccountForm\"]/form/div/input")).click();
        // driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a")).click();
         //driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/ul/li[4]/div/ul/li[2]/a")).click();
-
+        // driver.findElement(By.xpath("//*[@id=\"openAccountForm\"]/form/div/input")).click();
+        // driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a")).click();
+        //driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/ul/li[4]/div/ul/li[2]/a")).click();
+        // driver.findElement(By.xpath("//*[@id=\"openAccountForm\"]/form/div/input")).click();
+        // driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a")).click();
+        //driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/ul/li[4]/div/ul/li[2]/a")).click();
+        // day 1 closed.
 
 
 
