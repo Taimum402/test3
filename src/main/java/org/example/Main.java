@@ -16,6 +16,8 @@ public class Main {
         driver.manage().window().maximize();
         //driver.navigate().to("https://spcollegehilsa.in/spcollege_degree2/admin-login.php");
             driver.findElement(By.xpath("//*[@id=\"customer.firstName\"]")).sendKeys("Taimum1");
+            //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            Thread.sleep(3000);
             driver.findElement(By.xpath("//*[@id=\"customer.lastName\"]")).sendKeys("420");
             driver.findElement(By.xpath("//*[@id=\"customer.address.street\"]")).sendKeys("Dhaka");
             driver.findElement(By.xpath("//*[@id=\"customer.address.city\"]")).sendKeys("Dhaka");
@@ -25,6 +27,7 @@ public class Main {
             driver.findElement(By.xpath("//*[@id=\"customer.ssn\"]")).sendKeys("T331");
             driver.findElement(By.xpath("//*[@id=\"customer.username\"]")).sendKeys("Taimum420");
             driver.findElement(By.xpath("//*[@id=\"customer.password\"]")).sendKeys("Tuhin420");
+            Thread.sleep(3000);
             driver.findElement(By.xpath("//*[@id=\"repeatedPassword\"]")).sendKeys("Tuhin420");
 
                driver.findElement(By.xpath("//*[@id=\"customerForm\"]/table/tbody/tr[13]/td[2]/input")).click();
@@ -33,8 +36,10 @@ public class Main {
 
 
                         driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input")).click();
+                        Thread.sleep(3000);
                         driver.get("https://parabank.parasoft.com/parabank/requestloan.htm");
                         driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[7]/a")).click();
+                        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                         driver.findElement(By.xpath("//*[@id=\"amount\"]")).sendKeys("24444");
                         driver.findElement(By.xpath("//*[@id=\"downPayment\"]")).sendKeys("3888");
                 //driver.findElement(By.xpath("//*[@id=\"billpayForm\"]/form/table/tbody/tr[3]/td[2]/input")).sendKeys("Dhaka");
@@ -46,6 +51,8 @@ public class Main {
                 //driver.findElement(By.xpath("//*[@id=\"billpayForm\"]/form/table/tbody/tr[9]/td[2]/input")).sendKeys("12345");
                 //driver.findElement(By.xpath("//*[@id=\"billpayForm\"]/form/table/tbody/tr[11]/td[2]/input")).sendKeys("120");
                         driver.findElement(By.xpath("//*[@id=\"requestLoanForm\"]/form/table/tbody/tr[4]/td[2]/input")).click();
+                        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+                        Thread.sleep(3000);
                         driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[8]/a")).click();
 
 
